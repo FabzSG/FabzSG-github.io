@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balatro - Inicio</title>
+    <link rel="stylesheet" href="../index/css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Balatro</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarSeccion('info-section')">Información</a></li>
+                <li><a href="#" onclick="mostrarSeccion('vales-section')">Vales</a></li>
+                <li><a href="#" onclick="mostrarSeccion('ciegas-section')">Ciegas</a></li>
+                <li><a href="#" onclick="mostrarSeccion('comodines-section')">Comodines</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div class="info-text">
+            <p><strong>Balatro</strong> es un juego de construcción de mazos roguelike desarrollado por <strong>LocalThunk</strong> y publicado por Playstack. Se lanzó inicialmente el 20 de febrero de 2024 en Steam, PlayStation, Xbox y Switch, y una versión móvil se lanzó el 26 de septiembre de 2024.</p>
+        </div>
+        <img src="https://cdn.akamai.steamstatic.com/steam/apps/2379780/header.jpg" alt="Balatro" class="info-image">
+    </section>
+    
+    <!-- Secciones ocultas -->
+    <section id="info-section">
+        <div class="info-text">
+            <h2>Información sobre el juego</h2>   
+            <p>Balatro es un juego de cartas roguelike en el que cada partida tiene múltiples rondas de ciegas de jefes que deben ser derrotados logrando un puntaje determinado.</p>
+            <h1>Información sobre la Ejecución</h1>
+  <div class="content">
+    <p><strong>Pre-ejecución:</strong> Al hacer clic en el botón de reproducción, aparecerá una interfaz con tres pestañas en la parte superior (Nueva ejecución, Continuar y Ejecución diaria).</p>
+
+    <p><strong>Continuar interfaz:</strong> La pestaña Continuar muestra información variada sobre el juego sin terminar.</p>
+
+    <p><strong>Nueva interfaz de ejecución:</strong> La pestaña Nueva ejecución muestra diferentes opciones de apuestas y mazos y la semilla personalizada.</p>
+
+<p>Un archivo de juego que muestra las posibles dificultades de las apuestas; la dificultad base, White Stake, se ve en la parte superior izquierda.</p>
+
+    <p>La interfaz predeterminada es Continuar si hay una partida anterior sin terminar, y muestra la dificultad de la apuesta, el tipo de mazo y otra información sobre esa partida. El jugador continúa desde donde la dejó si hace clic en "Jugar".</p>
+
+    <p>Si no hay partidas sin terminar, o si el jugador desea comenzar una partida completamente nueva, la interfaz cambia a Nueva Partida, donde se ofrecen diferentes opciones de dificultad de apuesta y mazo inicial. También existe la opción de jugar una partida con semillas personalizadas.</p>
+
+    <p>Se carga un tutorial si el jugador nunca ha jugado el juego antes, donde Jimbo, la mascota del juego, explicará las distintas interfaces del juego mientras guía al jugador a través de un ejemplo de ejecución.</p>
+
+    <p><strong>Carrera real:</strong> Una vez que el jugador comienza una ronda, se le presenta el primer conjunto de tres ciegas: la ciega pequeña, la ciega grande y la ciega del jefe. Las dos primeras pueden omitirse para recibir etiquetas que aumentan la apuesta, pero la ciega del jefe debe vencerse para avanzar al 
+  
+
+    <p>Para vencer una ciega, el jugador debe seleccionar cartas de su mano para jugar manos de póker y ganar fichas. Si no alcanza el requisito de fichas en el número de manos asignado, pierde la ronda y debe reiniciar desde Ante 1.</p>
+ <img src="https://assetsio.gnwcdn.com/balatro-antes.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" alt="Balatro Antes" style="display:block; margin: 20px auto; border-radius: 10px; max-width:100%;">
+    <p>Al alcanzar el requisito de fichas, la ronda termina y el jugador recibe dinero, que se puede usar en la Tienda para comprar comodines y consumibles.</p>
+
+    <p>Cuando se completa Ante 8, el jugador gana la carrera y puede comenzar una nueva o continuar en el Modo Sin Fin, lo que le permite seguir adelante tanto como pueda antes de que las ciegas se vuelvan demasiado difíciles de vencer.</p>
+      <img src="https://imageio.forbes.com/specials-images/imageserve/65dc745328f0301da39133da/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds" alt="Balatro Final" style="display:block; margin: 20px auto; border-radius: 10px; max-width:100%;">
+
+</html>
+        </div>
+    </section>
+    
+    <section id="vales-section">
+        <div class="info-text">
+
+ <p> <h1>Vales</h1>
+
+    <p><strong>Vales:</strong> Los cupones son artículos que se ofrecen en la tienda y se renuevan o reabastecen solo tras derrotar al jefe ciego de cada apuesta inicial, o al reclamar la etiqueta de cupón y saltarse una apuesta ciega.</p>
+
+    <p>A diferencia de los artículos consumibles, los cupones y sus efectos son permanentes y permanecen efectivos durante toda la partida. Hay un total de 32 cupones.</p>
+
+    <p>Los Cupones se dividen en 16 pares, cada uno con un efecto diferente en el juego. Cada par incluye un Cupón "inicial" más débil (cuesta $10) y un Cupón "dependiente" más fuerte (cuesta $10 adicionales) que generalmente potencia el efecto del primero.</p>
+
+    <p>Normalmente, ningún Cupón se puede reclamar dos veces en una misma partida, y solo al reclamar un Cupón "inicial" se puede reclamar el Cupón "dependiente" en futuras tiendas de la partida. La probabilidad de que aparezca cada Cupón es la misma, y ​​un mismo Cupón puede aparecer varias veces durante una partida si no se compra, y se mantiene igual al reabastecerse.</p>
+
+    <p>Si la tienda se queda sin Cupones, ya sea por una generación excesiva de Cupones por la Etiqueta de Salto de Cupones o porque se han comprado los 32 Cupones, solo aparecerán Cupones en Blanco.</p>
+      <h2>Lista de Vales</h2>
+    <table border="1" style="width:80%; margin:auto; text-align:left; background-color:#222; color:white; border-collapse:collapse;" style="width:100%; text-align:left; background-color:#222; color:white; border-collapse:collapse;">
+      <tr style="background-color:#444;">
+        <th>Nombre</th>
+        <th>Efecto</th>
+        <th>Nombre</th>
+        <th>Efecto</th>
+        <th>Se desbloquea cuando</th>
+      </tr>
+      <tr>
+        <td>Abarrotar</td>
+        <td>+1 ranura para tarjeta disponible en la tienda (hasta 3 ranuras)</td>
+        <td>Overstock Plus</td>
+        <td>+1 ranura para tarjeta disponible en la tienda (hasta 4 ranuras)</td>
+        <td>Gastar un total de $2500 en la tienda</td>
+      </tr>
+      <tr>
+        <td>Venta de liquidación</td>
+        <td>Todas las tarjetas y paquetes en la tienda tienen un 25% de descuento</td>
+        <td>Liquidación</td>
+        <td>Todas las tarjetas y paquetes en la tienda tienen un 50% de descuento</td>
+        <td>Canjea al menos 10 tarjetas de cupón en una sola tirada</td>
+      </tr>
+      <tr>
+        <td>Piedra de afilar</td>
+        <td>Las cartas foil, holográficas y policromadas aparecen el doble de veces.</td>
+        <td>Brillar</td>
+        <td>Las cartas foil, holográficas y policromadas aparecen 4 veces más a menudo</td>
+        <td>Ten al menos 5 cartas Joker con efecto especial</td>
+      </tr>
+      <tr>
+        <td>Reroll Excedente</td>
+        <td>Las repeticiones cuestan $2 menos</td>
+        <td>Reroll Glut</td>
+        <td>Las repeticiones cuestan $2 menos adicionales</td>
+        <td>Repita la tienda un total de 100 veces</td>
+      </tr>
+      <tr>
+        <td>Bola de cristal</td>
+        <td>+1 ranura para consumible</td>
+        <td>Globo de presagio</td>
+        <td>Las cartas espectrales pueden aparecer en los paquetes de Arcana</td>
+        <td>Utilice un total de 25 cartas del Tarot</td>
+      </tr>
+      <tr>
+        <td>Telescopio</td>
+        <td>Los paquetes celestiales siempre contienen la carta Planeta más jugada</td>
+        <td>Observatorio</td>
+        <td>Las cartas de planeta en tu área consumible otorgan X1.5 Multiplicación</td>
+        <td>Utilice un total de 25 cartas de Planeta</td>
+      </tr>
+      <tr>
+        <td>Ladrón</td>
+        <td>Gana permanentemente +1 mano por ronda</td>
+        <td>Nacho Tong</td>
+        <td>Gana permanentemente una mano adicional de +1 por ronda</td>
+        <td>Juega un total de 2500 cartas</td>
+      </tr>
+      <tr>
+        <td>Antieconómico</td>
+        <td>Obtienes permanentemente +1 descarte cada ronda</td>
+        <td>Reciclomancia</td>
+        <td>Obtienes permanentemente un descarte adicional de +1 cada ronda</td>
+        <td>Descartar un total de 2500 cartas</td>
+      </tr>
+      <tr>
+        <td>Mercader del Tarot</td>
+        <td>Las cartas del tarot aparecen 2 veces más frecuentemente en la tienda</td>
+        <td>Magnate del tarot</td>
+        <td>Las cartas del tarot aparecen 4 veces más frecuentemente en la tienda</td>
+        <td>Compra un total de 50 cartas del Tarot en la tienda</td>
+      </tr>
+      <tr>
+        <td>Comerciante del planeta</td>
+        <td>Las tarjetas de planeta aparecen 2 veces más frecuentemente en la tienda</td>
+        <td>Magnate del planeta</td>
+        <td>Las tarjetas de planeta aparecen 4 veces más frecuentemente en la tienda</td>
+        <td>Compra un total de 50 tarjetas de Planeta en la tienda</td>
+      </tr>
+      <tr>
+        <td>Capital semilla</td>
+        <td>Aumentar el límite de interés ganado en cada ronda a $10</td>
+        <td>Árbol del dinero</td>
+        <td>Aumentar el límite de interés ganado en cada ronda a $20</td>
+        <td>Maximiza las ganancias de interés por 10 rondas consecutivas</td>
+      </tr>
+      <tr>
+        <td>Blanco</td>
+        <td>¿No hace nada?</td>
+        <td>Antimateria</td>
+        <td>+1 ranura de Joker</td>
+        <td>Canjear en blanco 10 veces</td>
+      </tr>
+      <tr>
+        <td>Truco de magia</td>
+        <td>Las cartas de juego se pueden comprar en la tienda</td>
+        <td>Espejismo</td>
+        <td>Las cartas de juego en la tienda pueden tener una mejora</td>
+        <td>Compre un total de 20 naipes en la tienda</td>
+      </tr>
+      <tr>
+        <td>Jeroglífico</td>
+        <td>-1 Ante, -1 mano por ronda</td>
+        <td>Petroglifo</td>
+        <td>-1 Ante, -1 descarte en cada ronda</td>
+        <td>Alcanza el nivel Ante 12</td>
+      </tr>
+      <tr>
+        <td>Versión del director</td>
+        <td>Repetir Boss Blind 1 vez por apuesta inicial, $10 por tirada</td>
+        <td>Retroconversión</td>
+        <td>Reroll Boss Blind veces ilimitadas, $10 por tirada</td>
+        <td>Descubre 25 Persianas</td>
+      </tr>
+      <tr>
+        <td>Pincel</td>
+        <td>+1 tamaño de mano</td>
+        <td>Paleta</td>
+        <td>+1 tamaño de mano nuevamente</td>
+        <td>Reduce el tamaño de tu mano a 5 cartas</td>
+      </tr>
+          <tr>
+        <td>Bola de cristal</td>
+        <td>+1 ranura para consumible</td>
+        <td>Globo de presagio</td>
+        <td>Las cartas espectrales pueden aparecer en paquetes de Arcana</td>
+        <td>Utilice un total de 25 cartas del Tarot</td>
+      </tr>
+      <tr>
+        <td>Telescopio</td>
+        <td>Los paquetes celestiales siempre contienen la carta Planeta más jugada</td>
+        <td>Observatorio</td>
+        <td>Las cartas de planeta en tu área consumible otorgan X1.5 Multiplicación</td>
+        <td>Utilice un total de 25 cartas de Planeta</td>
+      </tr>
+      <tr>
+        <td>Ladrón</td>
+        <td>Gana permanentemente +1 mano por ronda</td>
+        <td>Nacho Tong</td>
+        <td>Gana permanentemente una mano adicional de +1 por ronda</td>
+        <td>Juega un total de 2500 cartas</td>
+      </tr>
+      <tr>
+        <td>Antieconómico</td>
+        <td>Obtienes permanentemente +1 descarte cada ronda</td>
+        <td>Reciclomancia</td>
+        <td>Obtienes permanentemente un descarte adicional de +1 cada ronda</td>
+        <td>Descartar un total de 2500 cartas</td>
+      </tr>
+      <tr>
+        <td>Mercader del Tarot</td>
+        <td>Las cartas del tarot aparecen 2 veces más frecuentemente en la tienda</td>
+        <td>Magnate del tarot</td>
+        <td>Las cartas del tarot aparecen 4 veces más frecuentemente en la tienda</td>
+        <td>Compra un total de 50 cartas del Tarot en la tienda</td>
+      </tr>
+      <tr>
+        <td>Comerciante del planeta</td>
+        <td>Las tarjetas de planeta aparecen 2 veces más frecuentemente en la tienda</td>
+        <td>Magnate del planeta</td>
+        <td>Las tarjetas de planeta aparecen 4 veces más frecuentemente en la tienda</td>
+        <td>Compra un total de 50 tarjetas de Planeta en la tienda</td>
+      </tr>
+      <tr>
+        <td>Capital semilla</td>
+        <td>Aumentar el límite de interés ganado en cada ronda a $10</td>
+        <td>Árbol del dinero</td>
+        <td>Aumentar el límite de interés ganado en cada ronda a $20</td>
+        <td>Maximiza las ganancias de interés por 10 rondas consecutivas</td>
+      </tr>
+      <tr>
+        <td>Blanco</td>
+        <td>¿No hace nada?</td>
+        <td>Antimateria</td>
+        <td>+1 ranura de Joker</td>
+        <td>Canjear en blanco 10 veces</td>
+      </tr>
+      <tr>
+        <td>Truco de magia</td>
+        <td>Las cartas de juego se pueden comprar en la tienda</td>
+        <td>Espejismo</td>
+        <td>Las cartas de juego en la tienda pueden tener una mejora</td>
+        <td>Compre un total de 20 naipes en la tienda</td>
+      </tr>
+      <tr>
+        <td>Jeroglífico</td>
+        <td>-1 Ante, -1 mano por ronda</td>
+        <td>Petroglifo</td>
+        <td>-1 Ante, -1 descarte en cada ronda</td>
+        <td>Alcanza el nivel Ante 12</td>
+      </tr>
+      <tr>
+        <td>Versión del director</td>
+        <td>Repetir Boss Blind 1 vez por apuesta inicial, $10 por tirada</td>
+        <td>Retroconversión</td>
+        <td>Reroll Boss Blind veces ilimitadas, $10 por tirada</td>
+        <td>Descubre 25 Persianas</td>
+      </tr>
+      <tr>
+        <td>Pincel</td>
+        <td>+1 tamaño de mano</td>
+        <td>Paleta</td>
+        <td>+1 tamaño de mano nuevamente</td>
+        <td>Reduce el tamaño de tu mano a 5 cartas</td>
+      </tr>
+    </table>
+  
+</body>
+</html>        
+        </div>
+    </section>
+    
+    <section id="ciegas-section">
+        <div class="info-text">
+            <h2>Ciegas</h2>
+            <p>Las ciegas en Balatro representan desafíos en cada ronda. A medida que avanzas, las ciegas se vuelven más difíciles, requiriendo estrategias avanzadas para superarlas.</p>
+            <h1>Ciegas y Antes</h1>
+  <div class="content">
+    <p><strong>Persianas:</strong> Las ciegas son el principal obstáculo que el jugador debe superar en <strong>Balatro</strong>. En cada ronda, el jugador debe obtener la puntuación suficiente para vencerlas; de lo contrario, perderá la partida. Derrotarlas puede generar una recompensa económica.</p>
+
+    <p>Una apuesta inicial se compone de tres ciegas consecutivas: una ciega pequeña, una ciega grande y una ciega de jefe aleatoria. Las ciegas de jefe especiales, llamadas "Finisher Blinds", solo aparecen en el último nivel de una ronda, en la apuesta inicial 8. El jugador puede elegir entre una ciega pequeña o grande, o saltarse una o ambas y reclamar una o más etiquetas; las ciegas de jefe siempre deben jugarse.</p>
+
+    <p>La puntuación requerida para una ciega se determina por el nivel de la apuesta inicial. Generalmente, se empieza con la apuesta inicial 1 y se sube de nivel por cada ciega de jefe derrotada.</p>
+      <p>Como ya lo mencionamos antes, las ciegas se derrotan y se pasa al siguiente ANTE, así sucesivamente hasta completar la CARRERA REAL.</p>
+
+    <img src="https://preview.redd.it/h4s7372bmfxd1.png?width=640&crop=smart&auto=webp&s=34315ec6918b66d9241d1c50d7bd162068d7f467" alt="Ciegas y Antes" style="display:block; margin: 20px auto; border-radius: 10px; max-width:100%;">
+
+</html>
+        </div>
+    </section>
+    
+    <section id="comodines-section">
+        <div class="info-text">
+            <h2>Comodines</h2>
+            <p>Los comodines en Balatro añaden variabilidad al juego, permitiendo nuevas combinaciones y potenciando la construcción del mazo.</p>
+            <p>Los comodines se pueden mejorar con una de cuatro ediciones diferentes, lo que genera mayores costos en la tienda pero agrega un efecto adicional:</p>
+            <p>Base (tarjeta estándar)</p>
+            <p>Papel de aluminio (<span style="color: skyblue;">+50 fichas</span>)</p>
+            <p>Holográfico (<span style="color: red;">+10 Multiplicado</span>)</p>
+            <p>Policromía (<span style="color: red;">X1,5 Multiplicación</span>)</p>
+            <p>Negativo (<span style="color: blanchedalmond;">+1 ranura de Joker</span>)</p>
+        </div>
+        <img src="https://preview.redd.it/quality-of-life-mod-for-joker-information-v0-gr2fumm41b1d1.png?width=881&format=png&auto=webp&s=dfdbac2356ebc5a1440c4c353b914b3d15bb2265" alt="Lusty Joker Balatro" class="info-image">
+        <p>  <title>Lista de Cartas Joker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+
+  
+  <div class="content">
+
+    <ul>
+    <table border="1" style="width:80%; margin:auto; text-align:left; background-color:#222; color:white; border-collapse:collapse;">
+      <tr style="background-color:#444;">
+        <th>Número</th>
+        <th>Nombre</th>
+        <th>Efecto</th>
+        <th>Costo</th>
+        <th>Rareza</th>
+        <th>Requisito de desbloqueo</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Bromista</td>
+        <td>+4 Multiplicador</td>
+        <td>$2</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Joker Codicioso</td>
+        <td>Las cartas jugadas con diamantes otorgan +3 Multiplicación cuando se puntúan</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Joker Lujurioso</td>
+        <td>Las cartas jugadas con corazones otorgan +3 Multiplicación cuando se puntúan</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Joker Iracundo</td>
+        <td>Las cartas jugadas con espadas otorgan +3 Multiplicación cuando se puntúan</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Joker Glotón</td>
+        <td>Las cartas jugadas con tréboles otorgan +3 Multiplicación cuando se puntúan</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      
+      <tr>
+        <td>6</td>
+        <td>Joker Alegre</td>
+        <td>+8 Multiplicador si la mano jugada contiene un par</td>
+        <td>$3</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Joker Estrafalario</td>
+        <td>+12 Multiplicador si la mano jugada contiene un trío</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Joker Loco</td>
+        <td>+10 Multiplicador si la mano jugada contiene dos pares</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Joker Loco</td>
+        <td>+12 Multiplicador si la mano jugada contiene una escalera</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Joker Gracioso</td>
+        <td>+10 Multiplicador si la mano jugada contiene un color</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Joker Astuto</td>
+        <td>+50 fichas si la mano jugada contiene un par</td>
+        <td>$3</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Joker Astuto</td>
+        <td>+100 fichas si la mano jugada contiene un trío</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Joker Inteligente</td>
+        <td>+80 fichas si la mano jugada contiene dos pares</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Joker Astuto</td>
+        <td>+100 fichas si la mano jugada contiene una escalera</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+       <td>15</td>
+        <td>Joker Astuto</td>
+        <td>+80 fichas si la mano jugada contiene color</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      <tr>
+        <td>16</td>
+        <td>Medio Joker</td>
+        <td>+20 Multiplicador si la mano jugada contiene 3 cartas o menos</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Plantilla del Joker</td>
+        <td>Multiplica por cada casilla de Joker vacía</td>
+        <td>$8</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>Cuatro dedos</td>
+        <td>Todos los colores y escaleras se pueden hacer con 4 cartas</td>
+        <td>$7</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Mímica</td>
+        <td>Reactivar todas las habilidades de las cartas que tengas en la mano</td>
+        <td>$5</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+          <td>20</td>
+        <td>Tarjeta de crédito</td>
+        <td>Sube hasta -$20 en deuda</td>
+        <td>$1</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      <tr>
+        <td>21</td>
+        <td>Daga ceremonial</td>
+        <td>Cuando se selecciona Ciego, destruye el Joker a la derecha y agrega permanentemente el doble de su valor de venta a este Multiplicador</td>
+        <td>$6</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Bandera</td>
+        <td>+30 fichas por cada descarte restante</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>Cumbre Mística</td>
+        <td>+15 Multiplicador cuando quedan 0 descartes</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>Joker de mármol</td>
+        <td>Añade una carta de Piedra al mazo cuando se selecciona Ciego</td>
+        <td>$6</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>Tarjeta de fidelidad</td>
+        <td>X4 Multiplica cada 6 manos jugadas, 5 restantes</td>
+        <td>$5</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>Bola 8</td>
+        <td>1 de cada 4 posibilidades de que cada 8 jugado cree una carta del Tarot al puntuar (debe haber espacio)</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>Errata</td>
+        <td>+0-23 Multiplicador</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>Oscuridad</td>
+        <td>Reactivar todas las cartas jugadas en la mano final de la ronda</td>
+        <td>$5</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>Puño levantado</td>
+        <td>Agrega el doble del rango de la carta con el rango más bajo que se tenga en la mano a Multiplicador</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      
+      <tr>
+        <td>31</td>
+        <td>Fibonacci</td>
+        <td>Cada As, 2, 3, 5 u 8 jugado otorga +8 Multiplicador cuando se anota</td>
+        <td>$8</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>Joker de acero</td>
+        <td>Otorga X0.2 Multiplicación por cada Carta de Acero en tu mazo completo</td>
+        <td>$7</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>Cara de miedo</td>
+        <td>Las cartas con figuras jugadas otorgan +30 fichas cuando se puntúan</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td>Joker abstracto</td>
+        <td>+3 Multiplicador por cada carta Joker</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>Gratificación retrasada</td>
+        <td>Gana $2 por descarte si no se utilizan descartes al final de la ronda</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td>Cortar</td>
+        <td>Reactivar cada jugada 2, 3, 4 o 5</td>
+        <td>$6</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>Pareidolia</td>
+        <td>Todas las cartas se consideran figuras</td>
+        <td>$5</td>
+        <td>Poco común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>38</td>
+        <td>Gros Michel</td>
+        <td>+15 Multiplicador con 1 en 6 posibilidades de que se destruya al final de la ronda</td>
+        <td>$5</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>Even Steven</td>
+        <td>Las cartas jugadas con rango par otorgan +4 Multiplicador cuando se puntúan</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td>Odd Todd</td>
+        <td>Las cartas jugadas con rango impar otorgan +31 fichas cuando se puntúan</td>
+        <td>$4</td>
+        <td>Común</td>
+        <td>Disponible desde el principio</td>
+      </tr>
+      <tr>
+      
+      </tr>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+   
