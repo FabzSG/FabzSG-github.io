@@ -1,0 +1,72 @@
+body {
+    background-color: #660000;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqxAv99RGMCEd1xVIPWVI17lvQw_PevkSN7g&s');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    opacity: 0.95;
+}
+
+header {
+    background-color: #a00000;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 200px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.info-text {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.info-image {
+    max-width: 65%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Ocultar secciones hasta que se haga clic */
+#info-section, #vales-section, #ciegas-section, #comodines-section {
+    display: none;
+    text-align: center;
+}
